@@ -1,0 +1,386 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="Cache-Control" content="no-store" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <meta name="description" content="Nikki Peel's Web Development portfolio" />
+    <meta name="keywords" content="HTML, CSS, Bootsrap, JavaScript" />
+    <meta name="author" content="Nikki Peel" />
+
+    <!-- FontAwesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Portfolio - Mahesh Bhat</title>
+  </head>
+  <body>
+    <!-- Mobile Nav -->
+    <nav class="navbar sticky-top d-lg-none navbar-dark bg-dark">
+      <div class="navbar-brand d-flex-column">Mahesh Bhat</div>
+      <button
+        class="navbar-toggler collapsed"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+      <span id="icon" class="navbar-toggler-icon fas fa-bars"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarText">
+        <ul class="navbar-nav mx-auto mb-4">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="works.html"
+              >Portfolio<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+
+        <img src="img/me.jpeg" alt="" />
+        <h1 class="pt-4">Mahesh Bhat</h1>
+        <p>Front End Developer</p>
+        <p id="resume-mobile">
+          <a href="nikkipeel.pdf"
+            ><i class="fas fa-download"></i> Download Resume</a
+          >
+        </p>
+
+        <ul class="nav row p-0 mt-4" id="social-mobile">
+          <li class="col-sm-6 nav-item">
+            <a class="nav-link" href="mailto:maheshbhat312@gmail.com"
+              ><i class="fas fa-envelope"></i> Email Me
+            </a>
+          </li>
+          <li class="col-sm-6 nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/mahesh-bhat-436746211"
+              ><i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+          </li>
+          <li class="col-sm-6 nav-item">
+            <a class="nav-link" href="https://github.com/MahiBhat777"
+              ><i class="fab fa-github"></i> Github
+            </a>
+          </li>
+          <li class="col-sm-6 nav-item">
+            <a class="nav-link" href="https://auth.geeksforgeeks.org/user/maheshbhat312"
+              ><i class="fab fa-codepen"></i> Geeks For Geeks
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-lg-3 d-none d-lg-block p-0 sidebar text-white">
+          <div class="sidebar-sticky">
+            <div class="nav-header text-center">
+              <img id="sidebar-img" src="img/me.jpeg" alt="" />
+              <h1>Mahesh Bhat</h1>
+              <p>Front End Developer</p>
+              <p id="resume">
+                <a href="Mahesh Bhat.pdf"
+                  ><i class="fas fa-download"></i> Download Resume</a
+                >
+              </p>
+            </div>
+            <ul class="nav flex-column mx-auto pb-4 text-center">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">About </a>
+              </li>
+             
+              <li class="nav-item active">
+                <a class="nav-link" href="works.html">Portfolio </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact </a>
+              </li>
+            </ul>
+
+            <p class="text-center p-4">Thank you for visiting my portfolio!</p>
+            <ul class="nav" id="social">
+              <li class="nav-item">
+                <a class="nav-link" href="mailto:maheshbhat312@gmail.com"
+                  ><i class="fas fa-envelope"></i> Email Me
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/mahesh-bhat-436746211"
+                  ><i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://github.com/MahiBhat777"
+                  ><i class="fab fa-github"></i> Github
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://auth.geeksforgeeks.org/user/maheshbhat312"
+                  ><i class="fab fa-codepen"></i> Geeks For Geeks
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <main
+          role="main"
+          class="container col-md-8 m-auto p-4 d-lg-block d-none"
+          id="works"
+        >
+          <!-- Carousel -->
+          <div
+            id="carouselExampleControls"
+            class="carousel slide align-center"
+            data-ride="carousel"
+          >
+            <div class="carousel-inner container">
+              <div class="carousel-item active">
+                <div class="row">
+                  
+                  <!-- Project 1 -->
+                  <div class="col-md-6 mb-4">
+                    <div class="card card-works">
+                      <img
+                      src="img/Product.png"
+                      class="card-img-top"
+                      alt="Portfolio redesign"
+                      loading="lazy"
+                      />
+                    <div class="card-body">
+                      <h5 class="card-title">Product info page</h5>
+                      <h6 class="card-subtitle mb-2">SCSS</h6>
+                      <p class="card-text">
+                        A product page using SCSS which gives description  about shoes in responsive outlook
+                      </p>
+                      
+                      <a
+                        href="https://github.com/MahiBhat777/Product-Page/tree/main/Product"
+                        class="btn"
+                        ><i class="fab fa-github"></i> Github</a>
+                    </div>
+                  </div>
+                </div>
+                 
+                  
+                  <!-- Project 2 -->
+                  <div class="col-md-6 mb-4">
+                    <div class="card card-works">
+                      <img
+                        src="img/food.png"
+                        class="card-img-top"
+                        alt="Gatsby blog"
+                        loading="lazy"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Website for listing recipes</h5>
+                        <h6 class="card-subtitle mb-2">
+                          HTML,CSS
+                        </h6>
+                        <p class="card-text">
+                          Yummy Food Products!!!
+                        </p>
+                        
+                        <a
+                          href="https://github.com/MahiBhat777/MahiBhat777.github.io/tree/main/Food%20Recipe"
+                          class="btn"
+                          ><i class="fab fa-github"></i> Github</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Project 3 -->
+                  
+                  <div class="col-md-6 mb-4">
+                    <div class="card card-works">
+                      <img
+                        src="img/climate.png"
+                        class="card-img-top"
+                        alt="Travel blog"
+                        loading="lazy"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Weather App</h5>
+                        <h6 class="card-subtitle mb-2">
+                          JavaScript, Weather Map API
+                        </h6>
+                        <p class="card-text">
+                          weather app using Open Weather Map API , which provides current weather condition of specific cities.
+                        </p>
+                        <a
+                          href="https://github.com/MahiBhat777/Weather-App/tree/main/Weather"
+                          class="btn"
+                          ><i class="fab fa-github"></i> Github</a
+                        >
+                      </div>
+                    </div>
+                  </div> 
+
+                  <!-- Project 4 -->
+                  <div class="col-md-6 mb-4">
+                    <div class="card card-works">
+                      <img
+                        src="img/kanban.png"
+                        class="card-img-top"
+                        alt="SpaceX Data homepage"
+                        loading="lazy"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Kanban Board</h5>
+                        <h6 class="card-subtitle mb-2">
+                          JavaScript, CSS and HTML
+                        </h6>
+                        <p class="card-text">
+                          A kanban board is an agile project management tool designed to help visualize work and maximize efficiency.
+                       
+                        <a
+                          href="https://github.com/MahiBhat777/Kanban-Board/tree/main/Kanban%20Board"
+                          class="btn mt-2"
+                          ><i class="fab fa-bitbucket"></i> Github</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                 
+
+                </div>
+              </div>
+
+              <!-- Project 5 -->
+
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div class="card card-works">
+                      <img
+                        src="img/todo.png"
+                        class="card-img-top"
+                        alt="Cannabiz"
+                        loading="lazy"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Todo Application</h5>
+                        <h6 class="card-subtitle mb-2">
+                          HTML, CSS, JavaScript
+                        </h6>
+                        <p class="card-text">
+                          Built a Todo application with Add, Edit,Filter ,Delete Selected , Delete All Todo list.
+
+                        </p>
+                
+                        <a
+                          href="https://github.com/MahiBhat777/TODO-List/tree/main/TODO%20List"
+                          class="btn"
+                          ><i class="fab fa-github"></i> Github</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                 
+                
+
+                
+
+                </div>
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev justify-content-between"
+              href="#carouselExampleControls"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next justify-content-between"
+              href="#carouselExampleControls"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </main>
+
+        <main
+          role="main"
+          class="container d-lg-none mx-auto p-4"
+          id="works-mobile"
+        >
+        
+       
+
+          
+          
+ 
+          <a href="#works-mobile" class="mx-auto" id="to-top"
+            ><i class="fa fa-arrow-up" aria-hidden="true"></i> Back To Top</a
+          >
+        </main>
+      </div>
+    </div>
+
+ 
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      let icon = document.getElementById('icon');
+  
+      icon.addEventListener('click', function(){ 
+        icon.classList.toggle('fa-times');
+        icon.classList.toggle('fa-bars');
+      });
+    </script>
+  </body>
+</html>
